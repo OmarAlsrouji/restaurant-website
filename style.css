@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Roboto&family=Spline+Sans:wght@400;500;600;700&display=swap');
+
+
+body {
+    font-family: "Spline Sans",sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+
+.shadow-on-hover {
+    transition: all 0.4s;
+}
+.shadow-on-hover:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+.navbar {
+    position: sticky;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    color: black;
+}
+a>img {
+    height: 50px;
+    width: 70px;
+    padding-left: 0;
+}
+
+/* button */
+.btn-brand {
+    border: 1px orange solid;
+    color: orange;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+.btn-brand:hover {
+    color: grey ;
+    border: 1px grey solid;
+}
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.slide-1 {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(content/burger.jpg) ;
+}
+.slide-2 {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(content/pizza.jpg) ;
+}
+
+.carousel-control-prev {
+    background-color: rgba(0,0,0,0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+
+.carousel-control-next {
+    background-color: rgba(0,0,0,0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+
+#hero-slider h6::after,
+#hero-slider h6::before{
+    content:" ";
+    width: 40px;
+    height: 3px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+
+/* about */
+.image-container {
+    margin-left:0;
+    margin-right:0px;
+}
+.about-img{
+    margin-top:0;
+    margin-left: 0;
+    width: 240px;
+    height: 400px;
+}
+#about {
+    padding-top:80px ;
+    padding-bottom: 120px;
+}
+#about .divider {   
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: orange;
+}
+
+/* intro text for menu */
+.intro-text {
+    margin-top: 100px;
+    margin-bottom:40px ;
+    text-align: center;
+}
+.intro-text p {
+    margin: 16px auto 0 auto;
+    max-width: 500px;
+
+}
+a {
+    text-decoration: none;
+    color: #222;
+}
+a:hover {
+    color: orange;
+    transition: all 0.5s;
+}
+/* Menu */
+
+#menu .nav-pills .nav-link {
+    background-color: white;
+    margin-left: 8px;
+    margin-right:8px;
+    color: #222;
+    border-radius: 100px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+#menu .nav-pills .nav-link.active{
+    background-color: orange;
+    color: white;
+}
+.menu-images-size {
+    width:100%;
+    height: 200px;
+}
+.menu-item .stars {
+    color: orange;
+}
+.menu-item {
+    transition: 0.4s all;
+}
+.menu-item:hover {
+    transform: scale(1.1);
+}
+
+/* Features */
+
+#feature {    
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(content/burger.jpg) ;
+}
+.feature {
+    border: 2px rgb(255, 255, 255,0.2) solid;
+}
+.feature .feature-icon {
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    color: white;
+    font-size: 28px;
+    display:inline-grid;
+    align-content: center;
+    text-align: center;
+}
+
+/* team */
+.team-member img{
+    max-width: 140px;
+    box-shadow: -10px -10px 0 orange;
+    border-radius: 100px;
+}
+
+/* Reviews */
+#reviews {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(content/burger.jpg) ;
+}
+
+.review img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.review .review-icon {
+    font-size: 5rem;
+    color: orange; 
+    line-height: 1; 
+}
+
+.review .stars {
+    color: orange;
+}
+
+#review .carousel-indicators {
+    margin-bottom: -3rem;
+}
+
+/* reservation */
+#reservation .form-control {
+   border-radius: 0; 
+}
+#reservation .form-control:focus {
+    box-shadow: none;
+    border-color: orange;   
+}
+#reservation input.form-control {
+   height: 47px; 
+}
+#reservation input.form-control:focus {
+    color: orange;
+}
+
+/* insta posts */
+.instagram-media {
+    width: auto;
+}
+.orange-bg {
+    background-color:gray;
+}
+
+/* footer */
+
+.footer-contact {
+    color: orange;
+}
+
+.footer-top {
+    margin-bottom: 30px;
+}
+
+.footer-bottom {
+    padding-top: 30px;
+    border-top:1px solid rgba(0 , 0, 0, 0.75);
+    padding-bottom: 30px;
+}
